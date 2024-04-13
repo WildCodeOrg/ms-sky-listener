@@ -9,10 +9,9 @@ import java.util.UUID;
 @Getter
 @Setter
 @AllArgsConstructor
-public class ListenerPlaylist {
-    private UUID userId;
-    private UUID playlistId;
-    private String playlistName;
+public class Track {
+    private UUID trackId;
+    private String performer;
+    private String trackName;
     private byte[] playlistPhoto;
-    private boolean isLike;
 }

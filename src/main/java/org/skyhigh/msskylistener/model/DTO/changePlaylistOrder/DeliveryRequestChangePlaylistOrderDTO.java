@@ -5,11 +5,12 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Map;
+import java.util.UUID;
 
 @Setter
 @Getter
 @AllArgsConstructor
 public class DeliveryRequestChangePlaylistOrderDTO {
-    private String playlistId;
+    private UUID playlistId;
     private Map<Integer, Integer> changedInPlaylistPositions;
 }

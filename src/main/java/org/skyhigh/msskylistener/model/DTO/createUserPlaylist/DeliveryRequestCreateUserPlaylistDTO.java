@@ -12,7 +12,7 @@ import java.util.UUID;
 @AllArgsConstructor
 public class DeliveryRequestCreateUserPlaylistDTO {
     @NotEmpty
-    private String userMadeRequestId;
+    private UUID userMadeRequestId;
     @NotEmpty
     private String playlistName;
 

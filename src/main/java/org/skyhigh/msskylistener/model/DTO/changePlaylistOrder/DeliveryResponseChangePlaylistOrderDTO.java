@@ -9,5 +9,5 @@ import org.skyhigh.msskylistener.model.BusinessObjects.ListenerPlaylistTracks;
 @Getter
 @AllArgsConstructor
 public class DeliveryResponseChangePlaylistOrderDTO {
-    private ListenerPlaylistTracks newListenerPlaylistTracks;
+    private String message;
 }

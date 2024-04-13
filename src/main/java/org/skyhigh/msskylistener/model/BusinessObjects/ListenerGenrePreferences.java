@@ -4,10 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.UUID;
+
 @Getter
 @Setter
 @AllArgsConstructor
 public class ListenerGenrePreferences {
-    private String userID;
-    private String genreKey;
+    private UUID userID;
+    private String[] genreKey;
 }

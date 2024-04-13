@@ -9,4 +9,5 @@ import lombok.Setter;
 @AllArgsConstructor
 public class DeliveryResponseAddTrackToPlaylistDTO {
     private String message;
+    private int addTrackPosition;
 }

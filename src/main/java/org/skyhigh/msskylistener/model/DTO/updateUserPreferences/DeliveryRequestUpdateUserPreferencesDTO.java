@@ -8,13 +8,15 @@ import org.skyhigh.msskylistener.model.BusinessObjects.ListenerGenrePreferences;
 import org.skyhigh.msskylistener.model.BusinessObjects.ListenerPerformerPreferences;
 import org.skyhigh.msskylistener.validation.annotations.NotEmpty;
 
+import java.util.UUID;
+
 @Setter
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
 public class DeliveryRequestUpdateUserPreferencesDTO {
     @NotEmpty
-    private String userMadeRequestId;
+    private UUID userMadeRequestId;
 
     private ListenerPerformerPreferences newPerformerPreferences;
     private ListenerGenrePreferences newGenrePreferences;

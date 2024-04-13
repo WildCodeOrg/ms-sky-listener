@@ -6,13 +6,15 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.skyhigh.msskylistener.validation.annotations.NotEmpty;
 
+import java.util.UUID;
+
 @Setter
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
 public class DeliveryRequestGetPlaylistTracksDTO {
     @NotEmpty
-    private String userMadeRequestId;
+    private UUID userMadeRequestId;
     @NotEmpty
-    private String playlistId;
+    private UUID playlistId;
 }

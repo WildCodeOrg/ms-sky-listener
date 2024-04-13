@@ -5,10 +5,12 @@ import lombok.Getter;
 import lombok.Setter;
 import org.skyhigh.msskylistener.validation.annotations.NotEmpty;
 
+import java.util.UUID;
+
 @Setter
 @Getter
 @AllArgsConstructor
 public class DeliveryRequestDeletePlaylistDTO {
     @NotEmpty
-    private String playlistId;
+    private UUID playlistId;
 }
