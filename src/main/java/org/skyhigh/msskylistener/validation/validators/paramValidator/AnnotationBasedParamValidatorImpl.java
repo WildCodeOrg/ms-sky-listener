@@ -1,7 +1,7 @@
 package org.skyhigh.msskylistener.validation.validators.paramValidator;
 
 import jakarta.validation.ValidationException;
-import org.skyhigh.msskyhighrmm.validation.validators.fieldValidator.FieldValidator;
+import org.skyhigh.msskylistener.validation.validators.fieldValidator.FieldValidator;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

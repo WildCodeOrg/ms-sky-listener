@@ -1,7 +1,7 @@
 package org.skyhigh.msskylistener.validation.validators.fieldValidator;
 
 import jakarta.validation.ValidationException;
-import org.skyhigh.msskyhighrmm.validation.exceptions.RequiredParameterDidNotSetException;
+import org.skyhigh.msskylistener.validation.exceptions.RequiredParameterDidNotSetException;
 
 import java.lang.reflect.Field;
 import java.util.Collection;

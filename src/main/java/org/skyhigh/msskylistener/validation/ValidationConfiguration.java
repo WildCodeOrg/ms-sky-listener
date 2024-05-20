@@ -1,10 +1,10 @@
 package org.skyhigh.msskylistener.validation;
 
-import org.skyhigh.msskyhighrmm.validation.annotations.NotEmpty;
-import org.skyhigh.msskyhighrmm.validation.validators.fieldValidator.FieldValidator;
-import org.skyhigh.msskyhighrmm.validation.validators.fieldValidator.NotEmptyValidatorImpl;
-import org.skyhigh.msskyhighrmm.validation.validators.paramValidator.AnnotationBasedParamValidatorImpl;
-import org.skyhigh.msskyhighrmm.validation.validators.paramValidator.ParamValidator;
+import org.skyhigh.msskylistener.validation.annotations.NotEmpty;
+import org.skyhigh.msskylistener.validation.validators.fieldValidator.FieldValidator;
+import org.skyhigh.msskylistener.validation.validators.fieldValidator.NotEmptyValidatorImpl;
+import org.skyhigh.msskylistener.validation.validators.paramValidator.AnnotationBasedParamValidatorImpl;
+import org.skyhigh.msskylistener.validation.validators.paramValidator.ParamValidator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
